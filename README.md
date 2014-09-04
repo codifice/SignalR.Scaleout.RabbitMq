@@ -1,7 +1,7 @@
 SignalR.Scaleout.RabbitMq
 =========================
 
-A simple RabbitMQ Backplane for SignalR, install via NuGet using:
+A simple RabbitMQ Backplane for SignalR, install via NuGet (https://www.nuget.org/packages/SignalR.Scaleout.RabbitMq/) using:
 
 ```
 Install-Package SignalR.Scaleout.RabbitMq 
