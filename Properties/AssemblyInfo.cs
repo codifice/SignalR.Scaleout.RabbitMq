@@ -17,5 +17,5 @@ using System;
 [assembly: AssemblyCompanyAttribute("MCJ Development")]
 [assembly: AssemblyProductAttribute("RabbitMQ SignalR Scaleout")]
 [assembly: AssemblyCopyrightAttribute("2014 MCJ Development")]
-[assembly: AssemblyVersionAttribute("1.0.0.0")]
+[assembly: AssemblyVersionAttribute("1.0.*")]
 [assembly: AssemblyFileVersionAttribute("1.0.0.0")]
