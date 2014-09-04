@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>The time is: <span class="time"></span></h1>
+    <script src="scripts/jquery-1.6.4.js"></script>
+    <script src="scripts/jquery.signalR-2.1.1.js"></script>
+    <script src="signalr/hubs"></script>
+    <script>
+        $.connection.tickerHub.client.currentTime = function (now) {
+            $('.time').text(now);
+        };
+        $.connection.hub.start();
+    </script>
+</body>
+</html>
